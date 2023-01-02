@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GymkETSII</string>
+    <string name="menu_principal">MENÚ PRINCIPAL</string>
+    <string name="partida_nueva">Partida Nueva</string>
+    <string name="cargar_partida">Cargar Partida</string>
+    <string name="instrucciones">Instrucciones</string>
+</resources>
