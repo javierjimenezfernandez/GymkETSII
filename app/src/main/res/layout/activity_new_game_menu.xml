@@ -4,13 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".NewGameMenu">
 
     <TextView
-        android:id="@+id/textView_main_menu"
+        android:id="@+id/textView_new_game_menu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/menu_principal"
+        android:text="@string/new_game_menu"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -20,48 +20,42 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.28" />
 
-    <Button
-        android:id="@+id/button_new_game"
-        android:onClick="goToNewGameMenu"
+    <TextView
+        android:id="@+id/textView_insert_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="115dp"
-        android:layout_marginBottom="17dp"
-        android:backgroundTint="@color/azul_claro"
-        android:text="@string/partida_nueva"
+        android:layout_marginTop="60dp"
+        android:text="@string/insert_name"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/button_load_game"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView_main_menu"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toBottomOf="@+id/textView_new_game_menu" />
+
+    <EditText
+        android:id="@+id/editText_insert_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/name_hint"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_insert_name" />
 
     <Button
-        android:id="@+id/button_load_game"
-        android:onClick="goToLoadGameMenu"
+        android:id="@+id/button_start_game"
+        android:onClick=""
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:backgroundTint="@color/azul_claro"
-        android:text="@string/cargar_partida"
+        android:text="@string/start_game"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_new_game" />
-
-    <Button
-        android:id="@+id/button_help"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:backgroundTint="@color/azul_claro"
-        android:text="@string/instrucciones"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_load_game" />
-
+        app:layout_constraintTop_toBottomOf="@+id/editText_insert_name" />
 </androidx.constraintlayout.widget.ConstraintLayout>

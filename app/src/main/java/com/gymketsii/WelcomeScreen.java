@@ -10,9 +10,7 @@ import android.view.Window;
 import java.util.Timer;
 import java.util.TimerTask;
 
-import kotlinx.coroutines.Delay;
-
-public class WelkomeScreen extends AppCompatActivity {
+public class WelcomeScreen extends AppCompatActivity {
 
     private static final long DELAY = 3000;
 
@@ -21,11 +19,11 @@ public class WelkomeScreen extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
-        setContentView(R.layout.welkome_screen);
+        setContentView(R.layout.activity_welcome_screen);
         TimerTask task = new TimerTask() {
             @Override
             public void run() {
-                Intent intent = new Intent().setClass(WelkomeScreen.this, MainActivity.class);
+                Intent intent = new Intent().setClass(WelcomeScreen.this, MainActivity.class);
                 startActivity(intent);
                 finish();
             }
