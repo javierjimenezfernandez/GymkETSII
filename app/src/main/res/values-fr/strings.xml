@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GymkETSII</string>
+    <!-- Activity labels -->
+    <string name="welcome_label">Bienvenu</string>
+    <string name="main_menu_label">Menu Principal</string>
+    <string name="new_game_menu_label">Menu de Nouveau Jeu</string>
+    <string name="load_game_menu_label">Menu de Chargement du Jeu</string>
+    <string name="level1_label">Niveau 1</string>
+    <!-- Plain texts -->
+    <string name="main_menu">MENU PRINCIPAL</string>
+    <string name="new_game_menu">MENU de NOUVEAU JEU</string>
+    <string name="load_game_menu">MENU de CHARGEMENT DU JEU</string>
+    <string name="level1">NIVEAU 1</string>
+    <!-- EditText content -->
+    <string name="insert_name">Insertez Prénom:</string>
+    <!-- EditText hints -->
+    <string name="name_hint">Prénom</string>
+    <!-- Button texts -->
+    <string name="new_game">Nouveau Jeu</string>
+    <string name="load_game">Charger Jeu</string>
+    <string name="game_instructions">Instructions</string>
+    <string name="start_game">Commencer Jeu</string>
+</resources>

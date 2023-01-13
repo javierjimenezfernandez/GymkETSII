@@ -6,17 +6,18 @@
     <string name="new_game_menu_label">New Game Menu</string>
     <string name="load_game_menu_label">Load Game Menu</string>
     <string name="level1_label">Level 1</string>
-    <!-- Plain texts -->
-    <string name="menu_principal">MENÚ PRINCIPAL</string>
+    <!-- Title texts -->
+    <string name="main_menu">MAIN MENU</string>
     <string name="new_game_menu">NEW GAME MENU</string>
     <string name="load_game_menu">LOAD GAME MENU</string>
-    <string name="insert_name">Insert Name:</string>
     <string name="level1">LEVEL 1</string>
+    <!-- EditText content -->
+    <string name="insert_name">Insert Name:</string>
     <!-- EditText hints -->
     <string name="name_hint">Name</string>
     <!-- Button texts -->
-    <string name="partida_nueva">Partida Nueva</string>
-    <string name="cargar_partida">Cargar Partida</string>
-    <string name="instrucciones">Instrucciones</string>
+    <string name="new_game">New Game</string>
+    <string name="load_game">Load Game</string>
+    <string name="game_instructions">Game Instructions</string>
     <string name="start_game">Start Game</string>
 </resources>

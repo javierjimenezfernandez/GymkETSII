@@ -28,7 +28,7 @@ public class WelcomeScreen extends AppCompatActivity {
                 finish();
             }
         };
-        Timer crono = new Timer();
-        crono.schedule(task, DELAY);
+        Timer chrono = new Timer();
+        chrono.schedule(task, DELAY);
     }
 }
