@@ -1,9 +1,13 @@
 package com.gymketsii;
 
+import static android.nfc.NdefRecord.createUri;
+
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
+import android.media.MediaPlayer;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.Window;
 
@@ -13,6 +17,7 @@ import java.util.TimerTask;
 public class WelcomeScreen extends AppCompatActivity {
 
     private static final long DELAY = 3000;
+    private MediaPlayer cancion;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,6 +25,11 @@ public class WelcomeScreen extends AppCompatActivity {
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_welcome_screen);
+        cancion = MediaPlayer.create(this,R.raw.musicafondo);
+        cancion.setLooping(true);
+        cancion.start();
+
+
         TimerTask task = new TimerTask() {
             @Override
             public void run() {
