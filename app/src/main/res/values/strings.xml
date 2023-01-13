@@ -6,13 +6,15 @@
     <string name="new_game_menu_label">New Game Menu</string>
     <string name="load_game_menu_label">Load Game Menu</string>
     <string name="level1_label">Level 1</string>
+    <string name="level2_label">Level 2</string>
+    <string name="win_screen_label">Win Screen</string>
     <!-- Plain texts -->
     <string name="menu_principal">MAIN MENU</string>
     <string name="new_game_menu">NEW GAME MENU</string>
     <string name="load_game_menu">LOAD GAME MENU</string>
     <string name="insert_name">Insert Name:</string>
     <!-- Text Level 1 -->
-    <string name="text_level1">As soon as you arrive at the ETSII\, you are amazed to see the building\, the dome and the machine at the entrance… But what is most striking is hearing so many people talk about the \"special sandwich\"\. I\'m sure you\'ve already been able to eat a few but… What is your current price\?</string>
+    <string name="text_level1">As soon as you arrive at the ETSII\, you are amazed to see the building\, the dome and the machine at the entrance… But what is most striking is hearing so many people talk about the \"special sandwich\"\. I\'m sure you\'ve already been able to eat a few but… What is its current price\?</string>
     <string name="level1">LEVEL 1</string>
     <string name="enviar">Send</string>
     <string name="TextoError">Incorrect. Try again.</string>

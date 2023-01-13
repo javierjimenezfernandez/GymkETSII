@@ -7,6 +7,8 @@
     <string name="new_game_menu_label">Menú Nueva Partida</string>
     <string name="load_game_menu_label">Menú Cargar Partida</string>
     <string name="level1_label">Nivel 1</string>
+    <string name="level2_label">Nivel 2</string>
+    <string name="win_screen_label">Pantalla de Meta</string>
     <!-- Plain texts -->
     <string name="menu_principal">MENÚ PRINCIPAL</string>
     <string name="new_game_menu">MENÚ NUEVA PARTIDA</string>
