@@ -130,6 +130,10 @@ public class NewGameMenu extends AppCompatActivity {
     protected int checkCurrentPlayerDataExistence() {
         SQLiteManager admin = new SQLiteManager(getApplicationContext(), "administration", null, 1);
         SQLiteDatabase db = admin.getReadableDatabase();
+        // To avoid FATAL EXCEPTION in some devices when trying to read a table that does not exist we create the table
+        // only in the case it does not exist yet.
+        db.execSQL("create table if not exists current_player_data(player_name text primary key, current_level integer)");
+        // Now we can safely read the table
         int result = 0;
         Cursor row = db.query(
                 "current_player_data",             // Table to query
