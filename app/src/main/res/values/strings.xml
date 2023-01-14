@@ -8,23 +8,30 @@
     <string name="level1_label">Level 1</string>
     <string name="level2_label">Level 2</string>
     <string name="win_screen_label">Win Screen</string>
-    <!-- Plain texts -->
+    <!-- Main Menu -->
     <string name="menu_principal">MAIN MENU</string>
+    <string name="partida_nueva">New Game</string>
+    <string name="cargar_partida">Load Game</string>
+    <string name="instrucciones">Instructions</string>
+    <!-- New Game Menu -->
     <string name="new_game_menu">NEW GAME MENU</string>
-    <string name="load_game_menu">LOAD GAME MENU</string>
     <string name="insert_name">Insert Name:</string>
-    <!-- Text Level 1 -->
+    <string name="name_hint">Name</string>
+    <string name="start_game">Start Game</string>
+    <!-- Load Game Menu -->
+    <string name="load_game_menu">LOAD GAME MENU</string>
+    <string name="player_list_title">Player List</string>
+    <string name="choose_player_text">Write down the name of a player in\nthe list to load/delete that game:</string>
+    <string name="choose_player_hint">Player Name</string>
+    <string name="load_text">Load</string>
+    <string name="delete_text">Delete</string>
+    <!-- Level 1 -->
     <string name="text_level1">As soon as you arrive at the ETSII\, you are amazed to see the building\, the dome and the machine at the entrance… But what is most striking is hearing so many people talk about the \"special sandwich\"\. I\'m sure you\'ve already been able to eat a few but… What is its current price\?</string>
     <string name="level1">LEVEL 1</string>
     <string name="enviar">Send</string>
     <string name="TextoError">Incorrect. Try again.</string>
     <string name="continuar">Next!</string>
     <string name="correcto">THAT\'S CORRECT!!</string>
-    <!-- EditText hints -->
-    <string name="name_hint">Name</string>
-    <!-- Button texts -->
-    <string name="partida_nueva">New Game</string>
-    <string name="cargar_partida">Load Game</string>
-    <string name="instrucciones">Instructions</string>
-    <string name="start_game">Start Game</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
