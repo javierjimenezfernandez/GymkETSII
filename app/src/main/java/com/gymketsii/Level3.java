@@ -8,22 +8,21 @@ import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.EditText;
-import android.widget.Toast;
+
 import androidx.appcompat.app.AppCompatActivity;
 
-public class Level2 extends AppCompatActivity implements SensorEventListener {
+public class Level3 extends AppCompatActivity implements SensorEventListener {
 
-    private SensorManager gestor;
-    private Sensor sensor;
+    private SensorManager Manager;
+    private Sensor sensor2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_level2);
+        setContentView(R.layout.activity_level3);
 
-        gestor = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
-        sensor = gestor.getDefaultSensor(Sensor.TYPE_LIGHT);
+        Manager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
+        sensor2 = Manager.getDefaultSensor(Sensor.TYPE_GRAVITY);
     }
     @Override
     public final void onAccuracyChanged(Sensor sen, int acc){
@@ -31,26 +30,26 @@ public class Level2 extends AppCompatActivity implements SensorEventListener {
     }
     @Override
     public final void onSensorChanged(SensorEvent event){
-        float luzMedida = event.values[0];
-        if(luzMedida<10){
-            Intent intent = new Intent(this, Level2WinScreen.class);
+        float giroMedido = event.values[2];
+        if(giroMedido>9.5){
+            Intent intent = new Intent(this, Level3WinScreen.class);
             startActivity(intent);
         }
     }
     @Override
     protected void onResume(){
         super.onResume();
-        gestor.registerListener(this,sensor,SensorManager.SENSOR_DELAY_NORMAL);
+        Manager.registerListener(this,sensor2,SensorManager.SENSOR_DELAY_NORMAL);
     }
     @Override
     protected void onPause(){
         super.onPause();
-        gestor.unregisterListener(this,sensor);
+        Manager.unregisterListener(this,sensor2);
     }
 
 
-    public void goToWinScreen2(View view) {
-        Intent intent = new Intent(this, Level2WinScreen.class);
+    public void goToWinScreen3(View view) {
+        Intent intent = new Intent(this, Level3WinScreen.class);
         startActivity(intent);
     }
 }

@@ -7,6 +7,7 @@
     <string name="load_game_menu_label">Load Game Menu</string>
     <string name="level1_label">Level 1</string>
     <string name="level2_label">Level 2</string>
+    <string name="level3_label">Level 3</string>
     <string name="win_screen_label">Win Screen</string>
     <!-- Plain texts -->
     <string name="menu_principal">MAIN MENU</string>
@@ -20,6 +21,14 @@
     <string name="TextoError">Incorrect. Try again.</string>
     <string name="continuar">Next!</string>
     <string name="correcto">THAT\'S CORRECT!!</string>
+    <!-- Text Level 2 -->
+    <string name="level2">LEVEL 2</string>
+    <string name="text_level2">Near the smelter there is a very old site, some tunnels that connect to secret places... If you are able to simulate its environment, you will be able to pass this level. (Or you can also go there to investigate...)</string>
+    <!-- Text Level 3 -->
+    <string name="level3">LEVEL 3</string>
+    <string name="correcto3">And... That\'s All Folks</string>
+    <string name="continuar3">Main Menu</string>
+    <string name="text_level3">If you know what it is... You just need to try and you will pass the level</string>
     <!-- EditText hints -->
     <string name="name_hint">Name</string>
     <!-- Button texts -->

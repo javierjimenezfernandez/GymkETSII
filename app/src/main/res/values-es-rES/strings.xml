@@ -8,6 +8,7 @@
     <string name="load_game_menu_label">Menú Cargar Partida</string>
     <string name="level1_label">Nivel 1</string>
     <string name="level2_label">Nivel 2</string>
+    <string name="level3_label">Nivel 3</string>
     <string name="win_screen_label">Pantalla de Meta</string>
     <!-- Plain texts -->
     <string name="menu_principal">MENÚ PRINCIPAL</string>
@@ -21,6 +22,14 @@
     <string name="TextoError">Incorrecto. Inténtalo de nuevo.</string>
     <string name="continuar">¡Siguiente!</string>
     <string name="correcto">¡¡ES CORRECTO!!</string>
+    <!-- Texto Nivel 2 -->
+    <string name="level2">NIVEL 2</string>
+    <string name="text_level2">Cerca de la fundición hay un sitio muy antiguo, unos túneles que conectan con lugares secretos... Si eres capaz de simular su ambiente, serás capaz de superar este nivel. (O también puedes ir allí a investigar...)</string>
+    <!-- Text Level 3 -->
+    <string name="level3">NIVEL 3</string>
+    <string name="correcto3">Y... Esto es todo amigos</string>
+    <string name="continuar3">Inicio</string>
+    <string name="text_level3">Si sabes lo que es... Solo te falta probar y el nivel superarás</string>
     <!-- EditText hints -->
     <string name="name_hint">Nombre</string>
     <!-- Button texts -->
