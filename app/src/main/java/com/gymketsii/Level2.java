@@ -22,7 +22,7 @@ public class Level2 extends AppCompatActivity {
         String ResultadoString = Resultado.getText().toString();
         double ResultadoDouble = Double.parseDouble(ResultadoString);
         if( ResultadoDouble == 3.20){
-            Intent intent = new Intent(this, WinScreen.class);
+            Intent intent = new Intent(this, Level1WinScreen.class);
             startActivity(intent);
         }
         else{
@@ -31,7 +31,7 @@ public class Level2 extends AppCompatActivity {
     }
 
     public void goToWinScreen(View view) {
-        Intent intent = new Intent(this, WinScreen.class);
+        Intent intent = new Intent(this, Level1WinScreen.class);
         startActivity(intent);
     }
 }

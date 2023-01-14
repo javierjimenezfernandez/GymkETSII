@@ -1,7 +1,7 @@
 package com.gymketsii;
 
 import androidx.appcompat.app.AppCompatActivity;
-import android.media.MediaPlayer;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -22,7 +22,7 @@ public class Level1 extends AppCompatActivity {
         String ResultadoString = Resultado.getText().toString();
         double ResultadoDouble = Double.parseDouble(ResultadoString);
         if( ResultadoDouble == 3.20){
-            Intent intent = new Intent(this, WinScreen.class);
+            Intent intent = new Intent(this, Level1WinScreen.class);
             startActivity(intent);
         }
         else{

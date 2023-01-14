@@ -68,7 +68,7 @@
                 android:value=".MainActivity" />
         </activity>
         <activity
-            android:name=".WinScreen"
+            android:name=".Level1WinScreen"
             android:exported="false"
             android:label="@string/win_screen_label"
             android:parentActivityName=".MainActivity">

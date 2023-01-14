@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="WinScreen">
+    tools:context=".Level1WinScreen">
 
 <TextView
 android:id="@+id/textView_level1"
@@ -39,7 +39,7 @@ app:layout_constraintVertical_bias="0.278" />
         android:id="@+id/button_level1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="goToLevel2"
+        android:onClick=""
         android:text="@string/continuar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
