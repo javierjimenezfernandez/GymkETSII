@@ -2,60 +2,64 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".NewGameMenu">
+    tools:context=".LoadGameMenuLowerFragment">
 
     <TextView
-        android:id="@+id/textView_new_game_menu"
+        android:id="@+id/TextView_choose_player"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/new_game_menu"
-        android:textSize="24sp"
+        android:text="@string/choose_player_text"
+        android:textAlignment="center"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.28" />
-
-    <TextView
-        android:id="@+id/textView_insert_name"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
-        android:text="@string/insert_name"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView_new_game_menu" />
+        app:layout_constraintVertical_bias="0.1" />
 
     <EditText
-        android:id="@+id/editText_insert_name"
+        android:id="@+id/EditText_choose_player"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:ems="10"
+        android:hint="@string/choose_player_hint"
         android:inputType="textPersonName"
-        android:hint="@string/name_hint"
+        android:minHeight="48dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView_insert_name" />
+        app:layout_constraintTop_toBottomOf="@+id/TextView_choose_player" />
 
     <Button
-        android:id="@+id/button_start_game"
-
+        android:id="@+id/button_load"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="30dp"
         android:backgroundTint="@color/light_blue"
-        android:text="@string/start_game"
+        android:onClick=""
+        android:text="@string/load_text"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/button_delete"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EditText_choose_player" />
+
+    <Button
+        android:id="@+id/button_delete"
+        android:onClick=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/light_blue"
+        android:text="@string/delete_text"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText_insert_name" />
+        app:layout_constraintStart_toEndOf="@+id/button_load"
+        app:layout_constraintTop_toBottomOf="@+id/EditText_choose_player" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

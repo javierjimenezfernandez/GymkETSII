@@ -17,7 +17,7 @@ import java.util.TimerTask;
 public class WelcomeScreen extends AppCompatActivity {
 
     private static final long DELAY = 3000;
-    private MediaPlayer cancion;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,9 +25,7 @@ public class WelcomeScreen extends AppCompatActivity {
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_welcome_screen);
-        cancion = MediaPlayer.create(this,R.raw.musicafondo);
-        cancion.setLooping(true);
-        cancion.start();
+
 
 
         TimerTask task = new TimerTask() {

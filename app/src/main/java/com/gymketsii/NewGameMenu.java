@@ -104,7 +104,9 @@ public class NewGameMenu extends AppCompatActivity {
         // Sets auxiliary table with current player data
         db.insert("current_player_data", null, new_current_player);
         db.close();
+        /** Toast for test purposes:
         Toast.makeText(getApplicationContext(), "Set Current Player Data OK", Toast.LENGTH_SHORT).show();
+         */
         // Updates player list table with updated player data
         updatePlayerListDatabase(name, level);
     }
@@ -118,10 +120,14 @@ public class NewGameMenu extends AppCompatActivity {
             int delete_result = db.delete("current_player_data", null, null);
             db.close();
             if (delete_result == 1) {
+                /** Toast for test purposes:
                 Toast.makeText(getApplicationContext(), "Reset Current Player Data OK", Toast.LENGTH_SHORT).show();
+                 */
             }
             else {
+                /** Toast for test purposes:
                 Toast.makeText(getApplicationContext(), "Delete Current Player Data Error", Toast.LENGTH_SHORT).show();
+                 */
             }
         }
     }
@@ -130,6 +136,10 @@ public class NewGameMenu extends AppCompatActivity {
     protected int checkCurrentPlayerDataExistence() {
         SQLiteManager admin = new SQLiteManager(getApplicationContext(), "administration", null, 1);
         SQLiteDatabase db = admin.getReadableDatabase();
+        // To avoid FATAL EXCEPTION in some devices when trying to read a table that does not exist we create the table
+        // only in the case it does not exist yet.
+        db.execSQL("create table if not exists current_player_data(player_name text primary key, current_level integer)");
+        // Now we can safely read the table
         int result = 0;
         Cursor row = db.query(
                 "current_player_data",             // Table to query
@@ -146,15 +156,21 @@ public class NewGameMenu extends AppCompatActivity {
         }
         db.close();
         if (row_amount==0) {
+            /** Toast for test purposes:
             Toast.makeText(getApplicationContext(), "No current player yet", Toast.LENGTH_SHORT).show();
+             */
         }
         else if (row_amount==1) {
             result = 1;
+            /** Toast for test purposes:
             Toast.makeText(getApplicationContext(), "Only one existing current player, everything OK", Toast.LENGTH_SHORT).show();
+             */
         }
         else {
             result = 1;
+            /** Toast for test purposes:
             Toast.makeText(getApplicationContext(), "Something went wrong, more than one current player in the list", Toast.LENGTH_SHORT).show();
+             */
         }
         return result;
     }
@@ -169,10 +185,14 @@ public class NewGameMenu extends AppCompatActivity {
         int result = db.update("player_list", current_player_data, "player_name=?", new String[]{name});
         db.close();
         if (result == 1){
+            /** Toast for test purposes:
             Toast.makeText(getApplicationContext(), "Update Player List database with Current Player Data OK", Toast.LENGTH_SHORT).show();
+             */
         }
         else {
+            /** Toast for test purposes:
             Toast.makeText(getApplicationContext(), "Update Player List database with Current Player Data ERROR. No player with the name:" + name, Toast.LENGTH_SHORT).show();
+             */
         }
     }
 
