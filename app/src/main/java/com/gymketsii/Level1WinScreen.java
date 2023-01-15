@@ -45,12 +45,16 @@ public class Level1WinScreen extends AppCompatActivity {
         int update_result = db.update("current_player_data", register, "player_name=?", new String[]{current_player});
         db.close();
         if (update_result == 1) {
+            /** Toast for test purposes:
             Toast.makeText(getApplicationContext(), "Set Current Player Data OK", Toast.LENGTH_SHORT).show();
+             */
             // If update was successful, then update player list table with updated player data
             updatePlayerListDatabase(current_player, level_to_update);
         }
         else {
+            /** Toast for test purposes:
             Toast.makeText(getApplicationContext(), "Set Current Player Data ERROR", Toast.LENGTH_SHORT).show();
+             */
         }
 
     }
@@ -77,18 +81,24 @@ public class Level1WinScreen extends AppCompatActivity {
         db.close();
         // In this case the auxiliary dataset is empty and current_player is and empty string
         if (row_amount==0) {
+            /** Toast for test purposes:
             Toast.makeText(getApplicationContext(), "Error: No Games to update", Toast.LENGTH_SHORT).show();
+             */
             return current_player;
         }
         // In this case the auxiliary dataset contains only one current_player. Expected normal situation.
         else if (row_amount==1) {
+            /** Toast for test purposes:
             Toast.makeText(getApplicationContext(), "Only one current player, everything OK", Toast.LENGTH_SHORT).show();
+             */
             return current_player;
         }
         // In this case the auxiliary dataset is corrupt and has multiple current players, to safeguard player list dataset integrity
         // it returns an empty string. Then, overwriting the wrong player data is impossible.
         else {
+            /** Toast for test purposes:
             Toast.makeText(getApplicationContext(), "Something went wrong, more than one current player", Toast.LENGTH_SHORT).show();
+             */
             current_player = "";
             return current_player;
         }
@@ -105,10 +115,14 @@ public class Level1WinScreen extends AppCompatActivity {
         int result = db.update("player_list", current_player_data, "player_name=?", new String[]{name});
         db.close();
         if (result == 1){
+            /** Toast for test purposes:
             Toast.makeText(getApplicationContext(), "Update Player List database with Current Player Data OK", Toast.LENGTH_SHORT).show();
+             */
         }
         else {
+            /** Toast for test purposes:
             Toast.makeText(getApplicationContext(), "Update Player List database with Current Player Data ERROR. No player with the name:" + name, Toast.LENGTH_SHORT).show();
+             */
         }
     }
 

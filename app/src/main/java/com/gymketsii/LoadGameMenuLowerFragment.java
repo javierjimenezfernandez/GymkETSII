@@ -160,7 +160,9 @@ public class LoadGameMenuLowerFragment extends Fragment {
         // Sets auxiliary table with current player data
         db.insert("current_player_data", null, new_current_player);
         db.close();
+        /** Toast for test purposes:
         Toast.makeText(getContext(), "Set Current Player Data OK", Toast.LENGTH_SHORT).show();
+         */
     }
 
     // Reset auxiliary dataset containing possible Current Player data
@@ -172,10 +174,14 @@ public class LoadGameMenuLowerFragment extends Fragment {
             int delete_result = db.delete("current_player_data", null, null);
             db.close();
             if (delete_result == 1) {
+                /** Toast for test purposes:
                 Toast.makeText(getContext(), "Reset Current Player Data OK", Toast.LENGTH_SHORT).show();
+                 */
             }
             else {
+                /** Toast for test purposes:
                 Toast.makeText(getContext(), "Delete Current Player Data Error", Toast.LENGTH_SHORT).show();
+                 */
             }
         }
     }
@@ -204,15 +210,21 @@ public class LoadGameMenuLowerFragment extends Fragment {
         }
         db.close();
         if (row_amount==0) {
+            /** Toast for test purposes:
             Toast.makeText(getContext(), "No current player yet", Toast.LENGTH_SHORT).show();
+             */
         }
         else if (row_amount==1) {
             result = 1;
+            /** Toast for test purposes:
             Toast.makeText(getContext(), "Only one existing current player, everything OK", Toast.LENGTH_SHORT).show();
+             */
         }
         else {
             result = 1;
+            /** Toast for test purposes:
             Toast.makeText(getContext(), "Something went wrong, more than one current player in the list", Toast.LENGTH_SHORT).show();
+             */
         }
         return result;
     }
