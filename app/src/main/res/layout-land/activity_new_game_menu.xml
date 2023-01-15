@@ -1,4 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<!--******************************************************************************-->
+<!-- GYMKETSII App                                                                -->
+<!-- @file activity_new_game_menu.xml                                             -->
+<!--******************************************************************************-->
+<!-- GymkETSII dev team:                                                          -->
+<!-- @author 19235 - Javier Martínez Ciria <javier.martinez.ciria@alumnos.upm.es> -->
+<!-- @author 11210 - Javier Jiménez Fernández <j.jfernandez@alumnos.upm.es>       -->
+<!--******************************************************************************-->
+
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"

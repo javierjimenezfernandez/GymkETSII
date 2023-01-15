@@ -1,3 +1,15 @@
+/**
+ * GYMKETSII App
+ * @file MainActivity.java
+ *
+ * GymkETSII dev team:
+ * @author 19235 - Javier Martínez Ciria <javier.martinez.ciria@alumnos.upm.es>
+ * @author 11210 - Javier Jiménez Fernández <j.jfernandez@alumnos.upm.es>
+ *
+ *     credits: Alexander Nakarada for the song "Adventure"
+ *     (Royalty Free Music)
+ */
+
 package com.gymketsii;
 
 import androidx.appcompat.app.AppCompatActivity;

@@ -1,3 +1,12 @@
+/**
+ * GYMKETSII App
+ * @file Level2.java
+ *
+ * GymkETSII dev team:
+ * @author 19235 - Javier Martínez Ciria <javier.martinez.ciria@alumnos.upm.es>
+ * @author 11210 - Javier Jiménez Fernández <j.jfernandez@alumnos.upm.es>
+ */
+
 package com.gymketsii;
 
 import android.content.Context;
