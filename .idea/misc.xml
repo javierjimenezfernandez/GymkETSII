@@ -3,6 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/javij/AndroidStudioProjects/GymkETSII/app/src/main/res/layout-land/activity_instructions_menu.xml" value="0.30952380952380953" />
+        <entry key="..\:/Users/javij/AndroidStudioProjects/GymkETSII/app/src/main/res/layout-land/activity_level1.xml" value="0.30952380952380953" />
+        <entry key="..\:/Users/javij/AndroidStudioProjects/GymkETSII/app/src/main/res/layout-land/activity_level1_win_screen.xml" value="0.30952380952380953" />
+        <entry key="..\:/Users/javij/AndroidStudioProjects/GymkETSII/app/src/main/res/layout-land/activity_level2.xml" value="0.30952380952380953" />
+        <entry key="..\:/Users/javij/AndroidStudioProjects/GymkETSII/app/src/main/res/layout-land/activity_level2_win_screen.xml" value="0.30952380952380953" />
+        <entry key="..\:/Users/javij/AndroidStudioProjects/GymkETSII/app/src/main/res/layout-land/activity_level3.xml" value="0.31040564373897706" />
+        <entry key="..\:/Users/javij/AndroidStudioProjects/GymkETSII/app/src/main/res/layout-land/activity_level3_win_screen.xml" value="0.30952380952380953" />
+        <entry key="..\:/Users/javij/AndroidStudioProjects/GymkETSII/app/src/main/res/layout-land/activity_load_game_menu.xml" value="0.30952380952380953" />
+        <entry key="..\:/Users/javij/AndroidStudioProjects/GymkETSII/app/src/main/res/layout-land/activity_main.xml" value="0.30952380952380953" />
+        <entry key="..\:/Users/javij/AndroidStudioProjects/GymkETSII/app/src/main/res/layout-land/activity_new_game_menu.xml" value="0.30952380952380953" />
+        <entry key="..\:/Users/javij/AndroidStudioProjects/GymkETSII/app/src/main/res/layout-land/activity_welcome_screen.xml" value="0.25" />
         <entry key="..\:/Users/javij/AndroidStudioProjects/GymkETSII/app/src/main/res/layout/activity_instructions_menu.xml" value="0.18802083333333333" />
         <entry key="..\:/Users/javij/AndroidStudioProjects/GymkETSII/app/src/main/res/layout/activity_level1.xml" value="0.35260416666666666" />
         <entry key="..\:/Users/javij/AndroidStudioProjects/GymkETSII/app/src/main/res/layout/activity_level1_win_screen.xml" value="0.3423913043478261" />
