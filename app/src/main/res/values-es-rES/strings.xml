@@ -6,6 +6,7 @@
     <string name="main_menu_label">Menú Principal</string>
     <string name="new_game_menu_label">Menú Nueva Partida</string>
     <string name="load_game_menu_label">Menú Cargar Partida</string>
+    <string name="instructions_menu_label">Menú Instrucciones</string>
     <string name="level1_label">Nivel 1</string>
     <string name="level2_label">Nivel 2</string>
     <string name="level3_label">Nivel 3</string>
@@ -27,6 +28,9 @@
     <string name="choose_player_hint">Nombre del Jugador</string>
     <string name="load_text">Cargar</string>
     <string name="delete_text">Borrar</string>
+    <!-- Instructions Menu -->
+    <string name="instructions_menu">MENÚ INSTRUCCIONES</string>
+    <string name="instructions_text">Este es un juego de pistas ambientado en la ETSII\nBusca las respuestas y resuelve diversos puzzles\npara completar los niveles. Juega con tus amigos\npara descubrir los secretos de esta antigua Escuela...</string>
     <!-- Level 1 -->
     <string name="level1">NIVEL 1</string>
     <string name="text_level1">Nada más llegar a la ETSII te asombras al ver el edificio, la cúpula y la maquina en la entrada… Pero lo que más llama la atención es escuchar a tanta gente hablar del \"sandwich especial\". Seguro que ya has podido comer unos cuantos pero… \¿Cuál es su precio actual\?</string>

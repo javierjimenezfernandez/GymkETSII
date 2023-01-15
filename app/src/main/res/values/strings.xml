@@ -5,6 +5,7 @@
     <string name="main_menu_label">Main Menu</string>
     <string name="new_game_menu_label">New Game Menu</string>
     <string name="load_game_menu_label">Load Game Menu</string>
+    <string name="instructions_menu_label">Instructions Menu</string>
     <string name="level1_label">Level 1</string>
     <string name="level2_label">Level 2</string>
     <string name="level3_label">Level 3</string>
@@ -26,6 +27,9 @@
     <string name="choose_player_hint">Player Name</string>
     <string name="load_text">Load</string>
     <string name="delete_text">Delete</string>
+    <!-- Instructions Menu -->
+    <string name="instructions_menu">INSTRUCTIONS MENU</string>
+    <string name="instructions_text">This is a Cluedo style game set in the ETSII.\nSearch for the correct answers and solve the puzzles\nto complete the levels. Play along with your friends\nto discover the secrets of this old Engineering School...</string>
     <!-- Level 1 -->
     <string name="level1">LEVEL 1</string>
     <string name="text_level1">As soon as you arrive at the ETSII\, you are amazed to see the building\, the dome and the machine at the entrance… But what is most striking is hearing so many people talk about the \"special sandwich\"\. I\'m sure you\'ve already been able to eat a few but… What is its current price\?</string>
