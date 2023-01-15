@@ -32,4 +32,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, LoadGameMenu.class);
         startActivity(intent);
     }
+
+    public void goToInstructionsMenu (View view) {
+        Intent intent = new Intent(this, InstructionsMenu.class);
+        startActivity(intent);
+    }
 }
