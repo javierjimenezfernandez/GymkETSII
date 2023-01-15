@@ -6,26 +6,26 @@
     android:layout_height="match_parent"
     tools:context=".Level1WinScreen">
 
-<TextView
-android:id="@+id/textView_level1"
-android:layout_width="wrap_content"
-android:layout_height="wrap_content"
-android:text="@string/level1"
-android:textSize="24sp"
-android:textStyle="bold"
-app:layout_constraintBottom_toBottomOf="parent"
-app:layout_constraintEnd_toEndOf="parent"
-app:layout_constraintHorizontal_bias="0.489"
-app:layout_constraintStart_toStartOf="parent"
-app:layout_constraintTop_toTopOf="parent"
-app:layout_constraintVertical_bias="0.278" />
+    <TextView
+        android:id="@+id/textView_level1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/level1"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.278" />
 
 
     <TextView
         android:id="@+id/question_win_level1"
         android:layout_width="224dp"
         android:layout_height="56dp"
-        android:text="@string/correcto"
+        android:text="@string/correct_text_level1"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -39,35 +39,36 @@ app:layout_constraintVertical_bias="0.278" />
         android:id="@+id/button_win_level1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
-        android:text="@string/continuar"
+        android:backgroundTint="@color/light_blue"
+        android:textStyle="bold"
+        android:text="@string/continue_button_level1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/question_win_level1"
-        app:layout_constraintVertical_bias="0.272"/>
+        app:layout_constraintVertical_bias="0.272" />
 
     <ImageView
-android:id="@+id/imageView"
-android:layout_width="166dp"
-android:layout_height="152dp"
-app:layout_constraintBottom_toBottomOf="parent"
-app:layout_constraintEnd_toEndOf="parent"
-app:layout_constraintHorizontal_bias="0.102"
-app:layout_constraintStart_toStartOf="parent"
-app:layout_constraintTop_toTopOf="parent"
-app:layout_constraintVertical_bias="0.208"
-app:srcCompat="@drawable/cupulaetsii2" />
+        android:id="@+id/imageView"
+        android:layout_width="166dp"
+        android:layout_height="152dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.102"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.208"
+        app:srcCompat="@drawable/cupulaetsii2" />
 
-<ImageView
-android:id="@+id/imageView2"
-android:layout_width="207dp"
-android:layout_height="125dp"
-app:layout_constraintBottom_toTopOf="@+id/textView_level1"
-app:layout_constraintEnd_toEndOf="parent"
-app:layout_constraintStart_toStartOf="parent"
-app:layout_constraintTop_toTopOf="parent"
-app:srcCompat="@drawable/ic_pantallazo_inicial" />
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="207dp"
+        android:layout_height="125dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView_level1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_pantallazo_inicial" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

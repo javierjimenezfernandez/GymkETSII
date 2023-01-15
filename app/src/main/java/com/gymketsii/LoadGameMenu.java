@@ -18,11 +18,11 @@ public class LoadGameMenu extends AppCompatActivity {
         showPlayerList();
     }
 
+    // Show current Saved Games table
     public void showPlayerList() {
         SQLiteManager admin = new SQLiteManager(getApplicationContext(), "administration", null, 1);
         SQLiteDatabase db = admin.getReadableDatabase();
         TextView player_list = (TextView) findViewById(R.id.textView_player_list);
-        //Cursor row = db.rawQuery("select player_name,current_level from player_list", null);
         Cursor row = db.query(
                 "player_list",             // Table to query
                 null,                   // The array of columns to return (pass null to get all)

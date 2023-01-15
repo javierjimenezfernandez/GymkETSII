@@ -37,7 +37,7 @@ public class Level2WinScreen extends AppCompatActivity {
         SQLiteDatabase db = admin.getWritableDatabase();
         // Obtain current player name
         String current_player = getCurrentPlayer();
-        // Level 1 completed, next level is level 2
+        // Level 2 completed, next level is level 3
         int level_to_update = 3;
         ContentValues register = new ContentValues();
         register.put("player_name", current_player);

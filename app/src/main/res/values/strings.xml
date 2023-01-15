@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">GymkETSII</string>
     <!-- Activity labels -->
-    <string name="welcome_label">Welcome</string>
+    <string name="welcome_label">GymkETSII</string>
     <string name="main_menu_label">Main Menu</string>
     <string name="new_game_menu_label">New Game Menu</string>
     <string name="load_game_menu_label">Load Game Menu</string>
@@ -10,10 +10,10 @@
     <string name="level3_label">Level 3</string>
     <string name="win_screen_label">Win Screen</string>
     <!-- Main Menu -->
-    <string name="menu_principal">MAIN MENU</string>
-    <string name="partida_nueva">New Game</string>
-    <string name="cargar_partida">Load Game</string>
-    <string name="instrucciones">Instructions</string>
+    <string name="main_menu">MAIN MENU</string>
+    <string name="new_game">New Game</string>
+    <string name="load_game">Load Game</string>
+    <string name="instructions">Instructions</string>
     <!-- New Game Menu -->
     <string name="new_game_menu">NEW GAME MENU</string>
     <string name="insert_name">Insert Name:</string>
@@ -27,18 +27,18 @@
     <string name="load_text">Load</string>
     <string name="delete_text">Delete</string>
     <!-- Level 1 -->
-    <string name="text_level1">As soon as you arrive at the ETSII\, you are amazed to see the building\, the dome and the machine at the entrance… But what is most striking is hearing so many people talk about the \"special sandwich\"\. I\'m sure you\'ve already been able to eat a few but… What is its current price\?</string>
     <string name="level1">LEVEL 1</string>
-    <string name="enviar">Send</string>
-    <string name="TextoError">Incorrect. Try again.</string>
-    <string name="continuar">Next!</string>
-    <string name="correcto">THAT\'S CORRECT!!</string>
-    <!-- Text Level 2 -->
+    <string name="text_level1">As soon as you arrive at the ETSII\, you are amazed to see the building\, the dome and the machine at the entrance… But what is most striking is hearing so many people talk about the \"special sandwich\"\. I\'m sure you\'ve already been able to eat a few but… What is its current price\?</string>
+    <string name="send_button">Send</string>
+    <string name="error_text">Incorrect. Try again.</string>
+    <string name="continue_button_level1">Next!</string>
+    <string name="correct_text_level1">THAT\'S CORRECT!!</string>
+    <!-- Level 2 -->
     <string name="level2">LEVEL 2</string>
     <string name="text_level2">Near the smelter there is a very old site, some tunnels that connect to secret places... If you are able to simulate its environment, you will be able to pass this level. (Or you can also go there to investigate...)</string>
-    <!-- Text Level 3 -->
+    <!-- Level 3 -->
     <string name="level3">LEVEL 3</string>
-    <string name="correcto3">And... That\'s All Folks</string>
-    <string name="continuar3">Main Menu</string>
+    <string name="correct_text_level3">And... That\'s All Folks</string>
+    <string name="continue_button_level3">Main Menu</string>
     <string name="text_level3">If you know what it is... You just need to try and you will pass the level</string>
 </resources>

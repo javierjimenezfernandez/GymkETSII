@@ -25,6 +25,7 @@
         android:layout_width="332dp"
         android:layout_height="121dp"
         android:text="@string/text_level2"
+        android:textAlignment="center"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
