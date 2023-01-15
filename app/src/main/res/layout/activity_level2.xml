@@ -4,13 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Level1">
+    tools:context=".Level2">
 
     <TextView
-        android:id="@+id/textView_level1"
+        android:id="@+id/textView_level2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/level1"
+        android:text="@string/level2"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -21,10 +21,11 @@
         app:layout_constraintVertical_bias="0.278" />
 
     <TextView
-        android:id="@+id/question_level1"
-        android:layout_width="360dp"
-        android:layout_height="124dp"
-        android:text="@string/text_level1"
+        android:id="@+id/question_level2"
+        android:layout_width="332dp"
+        android:layout_height="121dp"
+        android:text="@string/text_level2"
+        android:textAlignment="center"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -33,32 +34,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.449" />
-
-    <EditText
-        android:id="@+id/editTextNumberDecimal_level1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
-        android:ems="10"
-        android:inputType="numberDecimal"
-        app:layout_constraintBottom_toTopOf="@+id/button_level1"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.492"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/question_level1"
-        app:layout_constraintVertical_bias="0.236" />
-
-    <Button
-        android:id="@+id/button_level1"
-        android:onClick="CompruebaLevel1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/enviar"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/question_level1"
-        />
 
     <ImageView
         android:id="@+id/imageView"
@@ -76,7 +51,7 @@
         android:id="@+id/imageView2"
         android:layout_width="207dp"
         android:layout_height="125dp"
-        app:layout_constraintBottom_toTopOf="@+id/textView_level1"
+        app:layout_constraintBottom_toTopOf="@+id/textView_level2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"

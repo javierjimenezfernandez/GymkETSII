@@ -4,13 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Level1WinScreen">
+    tools:context=".Level3WinScreen">
 
     <TextView
-        android:id="@+id/textView_level1"
+        android:id="@+id/textView_level3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/level1"
+        android:text="@string/level3"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -22,10 +22,10 @@
 
 
     <TextView
-        android:id="@+id/question_win_level1"
-        android:layout_width="224dp"
-        android:layout_height="56dp"
-        android:text="@string/correct_text_level1"
+        android:id="@+id/question_level3"
+        android:layout_width="252dp"
+        android:layout_height="58dp"
+        android:text="@string/correct_text_level3"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -36,17 +36,17 @@
         app:layout_constraintVertical_bias="0.499" />
 
     <Button
-        android:id="@+id/button_win_level1"
+        android:id="@+id/button_win_level3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/light_blue"
         android:textStyle="bold"
-        android:text="@string/continue_button_level1"
+        android:text="@string/continue_button_level3"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/question_win_level1"
+        app:layout_constraintTop_toBottomOf="@+id/question_level3"
         app:layout_constraintVertical_bias="0.272" />
 
     <ImageView
@@ -62,10 +62,10 @@
         app:srcCompat="@drawable/cupulaetsii2" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/imageView3"
         android:layout_width="207dp"
         android:layout_height="125dp"
-        app:layout_constraintBottom_toTopOf="@+id/textView_level1"
+        app:layout_constraintBottom_toTopOf="@+id/textView_level3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"

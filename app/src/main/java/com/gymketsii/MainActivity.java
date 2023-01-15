@@ -10,13 +10,17 @@ import android.view.View;
 import android.view.Window;
 
 public class MainActivity extends AppCompatActivity {
-
+    public MediaPlayer cancion;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        cancion = MediaPlayer.create(this, R.raw.musicafondo);
 
-
+            if(cancion.isPlaying()==false) {
+                cancion.setLooping(true);
+                cancion.start();
+            }
     }
 
     public void goToNewGameMenu (View view) {

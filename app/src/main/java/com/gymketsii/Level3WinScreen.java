@@ -4,6 +4,7 @@ import android.content.ContentValues;
 import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -11,20 +12,21 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class Level1WinScreen extends AppCompatActivity {
+public class Level3WinScreen extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_level1_win_screen);
+        setContentView(R.layout.activity_level3_win_screen);
 
         // Save current player level
         saveCurrentLevel();
 
-        Button button_next_game = (Button) findViewById(R.id.button_win_level1);
-        button_next_game.setOnClickListener(new View.OnClickListener() {
+        Button button_next2_game = (Button) findViewById(R.id.button_win_level3);
+        button_next2_game.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                goToLevel2();
+
+                goToStart();
             }
         });
     }
@@ -36,8 +38,10 @@ public class Level1WinScreen extends AppCompatActivity {
         SQLiteDatabase db = admin.getWritableDatabase();
         // Obtain current player name
         String current_player = getCurrentPlayer();
-        // Level 1 completed, next level is level 2
-        int level_to_update = 2;
+        // Level 3 completed, next level is level 4
+        // TODO: develop more levels
+        // Meanwhile... There are no more levels so remain in level 3
+        int level_to_update = 3;
         ContentValues register = new ContentValues();
         register.put("player_name", current_player);
         register.put("current_level", level_to_update);
@@ -112,8 +116,8 @@ public class Level1WinScreen extends AppCompatActivity {
         }
     }
 
-    public void goToLevel2() {
-        Intent intent = new Intent(this, Level2.class);
+    public void goToStart() {
+        Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
     }
 }
