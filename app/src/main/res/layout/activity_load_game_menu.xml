@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--******************************************************************************-->
+<!-- GYMKETSII App                                                                -->
+<!-- @file activity_load_game_menu.xml                                            -->
+<!--******************************************************************************-->
+<!-- GymkETSII dev team:                                                          -->
+<!-- @author 19235 - Javier Martínez Ciria <javier.martinez.ciria@alumnos.upm.es> -->
+<!-- @author 11210 - Javier Jiménez Fernández <j.jfernandez@alumnos.upm.es>       -->
+<!--******************************************************************************-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoadGameMenu">
+
+    <fragment
+        android:id="@+id/fragment_load_game_menu_upper"
+        android:name="com.gymketsii.LoadGameMenuUpperFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout="@layout/fragment_load_game_menu_upper"/>
+
+    <fragment
+        android:id="@+id/fragment_load_game_menu_lower"
+        android:name="com.gymketsii.LoadGameMenuLowerFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout="@layout/fragment_load_game_menu_lower"/>
+
+</LinearLayout>
