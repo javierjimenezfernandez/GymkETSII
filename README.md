@@ -22,14 +22,22 @@ _Desarrollado con Android Studio Chipmunk | 2021.2.1 Patch 2._
 
 
 ## Flujograma de la aplicación
+
+<div align="center">
+
 ![Flujograma](https://github.com/user-attachments/assets/d8cf8f13-9f2e-43a3-9272-ec54c5b41652)
 
+</div>
 
 ## Capturas de pantalla de la aplicación
-<img align="left" alt="Captura_menu_principal" src="https://github.com/user-attachments/assets/b1e76a1f-5931-440a-a1c9-d9067963ce84" width="400"> 
 
-<img align="left" alt="Captura_menu_nueva_partida" src="https://github.com/user-attachments/assets/40177af9-fa25-4642-9804-11ef7ff7b97c" width="400">
+<div align="center">
 
-<img align="left" alt="Captura_level1" src="https://github.com/user-attachments/assets/0c37a2aa-def8-48db-8e13-6425e1f63462" width="400">
+<img height="400" alt="Captura_menu_principal" src="https://github.com/user-attachments/assets/b1e76a1f-5931-440a-a1c9-d9067963ce84"> 
+<img height="400" alt="Captura_menu_nueva_partida" src="https://github.com/user-attachments/assets/40177af9-fa25-4642-9804-11ef7ff7b97c">
+<img height="400" alt="Captura_level1" src="https://github.com/user-attachments/assets/0c37a2aa-def8-48db-8e13-6425e1f63462">
+<img height="400" alt="Captura_level3" src="https://github.com/user-attachments/assets/9d079d0e-fce8-4276-9f42-d1e4d54dc761">
 
-<img align="left" alt="Captura_level3" src="https://github.com/user-attachments/assets/9d079d0e-fce8-4276-9f42-d1e4d54dc761" width="400">
+> De izquierda a derecha y de arriba a abajo: menú principal, menú nueva partida, nivel 1, nivel 3
+
+</div>
