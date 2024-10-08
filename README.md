@@ -35,6 +35,9 @@ _Desarrollado con Android Studio Chipmunk | 2021.2.1 Patch 2._
 
 <img height="400" alt="Captura_menu_principal" src="https://github.com/user-attachments/assets/b1e76a1f-5931-440a-a1c9-d9067963ce84"> 
 <img height="400" alt="Captura_menu_nueva_partida" src="https://github.com/user-attachments/assets/40177af9-fa25-4642-9804-11ef7ff7b97c">
+
+&nbsp;
+
 <img height="400" alt="Captura_level1" src="https://github.com/user-attachments/assets/0c37a2aa-def8-48db-8e13-6425e1f63462">
 <img height="400" alt="Captura_level3" src="https://github.com/user-attachments/assets/9d079d0e-fce8-4276-9f42-d1e4d54dc761">
 
