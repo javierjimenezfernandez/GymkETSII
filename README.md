@@ -10,7 +10,7 @@ Aplicación para realizar gymkhanas y juegos tipo "scape room" ambientada en la 
 - Javier Martínez Ciria - javier.martinez.ciria@alumnos.upm.es
 - Javier Jiménez Fernández - j.jfernandez@alumnos.upm.es
 
-Esta aplicación es el proyecto final de la asignatura de competencias Programación en Android (55000435) del Grado en Ingeniería en Tecnologías Industriales (GITI) de la ETSII UPM en el curso 2022/2023. Nota final de la asignatura 9.7 (MH).
+Esta aplicación es el proyecto final de la asignatura de competencias Programación en Android (55000435) del Grado en Ingeniería en Tecnologías Industriales (GITI) de la ETSII UPM en el curso 2022/2023. Nota final de la asignatura 9.7/10 (MH).
 
 
 ## Release
